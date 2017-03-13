@@ -1,24 +1,56 @@
 <!DOCTYPE html>
 <html>
 <title>HTML Tutorial</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-	p {
-		font-size: 20px;
-	}
+    p {
+        font-size: 20px;
+        font-weight: 300;
+    }
+    
+    .logo {
+        width: 200px;
+    }
+    
+    body {
+        background-image: url(/img/landingimage.jpg);
+        /*background-size: cover;*/
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        font-family: "Open Sans", sans-serif;
+    }
+    
+    section {
+        width: 60%;
+        margin: 0 auto;
+        border-top: 10px solid #2dc0cd;
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 10px;
+    }
+    
+    section p {
+        /*color: #a4aab2;*/
+    }
 </style>
-<body>
 
-<div style="text-align: center;">
-<img src="https://dev.pealo.com/Content/pealogo-top.png" alt="pealo-logo" />
-</div>
-<p>
-Hey guys,
-</p>
-<p>
-We are currently working on a new strategy and will be up online towards the middle of the year.
-</p>
-<p>
-In the meantime if you need an urgent request please email <a href="mailto:prakash@pealo.com">prakash@pealo.com</a>
-</p>
+<body>
+    <div style="text-align: center;">
+        <img src="/img/logo-white.png" alt="pealo-logo" class="logo" />
+    </div>
+    <section>
+
+        <p>
+            Hey guys,
+        </p>
+        <p>
+            We are currently working on a new strategy and will be up online towards the middle of the year.
+        </p>
+        <p>
+            In the meantime if you need an urgent request please email <a href="mailto:prakash@pealo.com">prakash@pealo.com</a>
+        </p>
+    </section>
+
 </body>
+
 </html>
